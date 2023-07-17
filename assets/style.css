@@ -83,6 +83,10 @@ body {
     max-width: 100%;
 }
 
+.jc-center {
+   justify-content: center;
+}
+
 
 /* Mobile First */
 header
@@ -123,7 +127,7 @@ nav a {
 
 /*main*/
 
-/*section-service*/
+/*#region section-service*/
 
 .btn_blue {
     display: inline-block;
@@ -134,10 +138,6 @@ nav a {
     
 }
 
-.card{
-    margin: 1rem 0;
-    
-}
 
 .card_two>img{
     width: 100%;
@@ -197,6 +197,14 @@ nav a {
     margin-top: 1rem;
 }
 
+/*#endregion section-service*/
+
+/*#region section-strategic*/
+
+.cursive{
+    font-style: italic;
+}
+
 
 @media screen and (min-width: 768px)
 {
@@ -253,6 +261,20 @@ nav a {
 
 	.col-12.col-md-8 > .card{
         display: flex;
+    }
+
+    #strategic>.container>div.row{
+        flex-direction: row;
+    }
+    .col-l-6{
+		width: calc(100% / 12 * 6);
+    }
+    .white_card{
+        width: 60%;
+        align-self: flex-end;
+    }
+    .white_card>img{
+        width: 100%;
     }
 }
 
