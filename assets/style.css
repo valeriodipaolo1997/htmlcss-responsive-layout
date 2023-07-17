@@ -201,9 +201,32 @@ nav a {
 
 /*#region section-strategic*/
 
+#strategic {
+    background-color:  #9792E4;
+    margin-top: 3rem;
+}
+
 .cursive{
     font-style: italic;
 }
+
+.white_card {
+    background-color: white;
+    
+    padding: 2rem;
+}
+
+.blue_card {
+    color: white;
+}
+
+ .freccia {
+     background-color: #9792e4;
+     border-radius: 50%;
+     margin-top: 2rem;
+     padding: 2rem 1.5rem;
+     color: black;
+ }
 
 
 @media screen and (min-width: 768px)
