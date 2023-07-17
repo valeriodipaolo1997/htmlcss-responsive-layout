@@ -13,10 +13,53 @@
 	margin: auto;
 }
 
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1rem;
+}
+
+[class^='col-']
+{
+	padding: 0 1rem;
+}
+
+.col-4
+{
+	width: calc(100% / 12 * 4);
+}
+
+.col-6
+{
+	width: calc(100% / 12 * 6);
+}
+
+.col-8
+{
+	width: calc(100% / 12 * 8);
+}
+
+.col-12
+{
+	width: 100%;
+}
+
+.d-none
+{
+	display: none;
+}
+
+.d-block
+{
+	display: block;
+}
 
 
 
-/* Moibile First */
+
+
+/* Mobile First */
 header
 {
 	background-color: blue;
@@ -51,6 +94,10 @@ nav a {
 .mobile_menu {
     color: white;
 }
+
+
+/*main*/
+
 
 
 @media screen and (min-width: 768px)
