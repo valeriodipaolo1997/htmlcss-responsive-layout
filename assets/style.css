@@ -127,11 +127,11 @@ nav a {
 
 .btn_blue {
     display: inline-block;
-    background-color: aqua;
-    color: white;
-    padding: 0.35rem 3.5rem;
+    padding: 0.35rem 1rem;
     border-radius: 25px;
     text-decoration: none;
+    margin-top: 2rem;
+    
 }
 
 .card{
@@ -176,7 +176,7 @@ nav a {
 }
 
 #services .card .card_two p {
-    margin-bottom: 2rem;
+    
     line-height: 170%;
 }
 
