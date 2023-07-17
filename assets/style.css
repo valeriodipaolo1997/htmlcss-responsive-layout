@@ -3,3 +3,111 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*utilities*/
+
+.container
+{
+	max-width: 1152px;
+	width: 80%;
+	margin: auto;
+}
+
+
+
+
+/* Moibile First */
+header
+{
+	background-color: blue;
+}
+
+header nav
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+header nav > .desktop_menu
+{
+	display: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1.3rem;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 0.5rem;
+    border-radius: 13px;
+}
+
+.mobile_menu {
+    color: white;
+}
+
+
+@media screen and (min-width: 768px)
+{
+	.d-md-none
+	{
+		display: none;
+	}
+
+	.d-md-block
+	{
+		display: block;
+	}
+
+	.col-md-4
+	{
+		width: calc(100% / 12 * 4);
+	}
+
+	.col-md-6
+	{
+		width: calc(100% / 12 * 6);
+	}
+
+	.col-md-8
+	{
+		width: calc(100% / 12 * 8);
+	}
+
+	.col-md-12
+	{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 1024px)
+{
+	header nav > .mobile_menu
+	{
+		display: none;
+	}
+
+	header nav > .desktop_menu
+	{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1440px)
+{
+	.container
+	{
+		max-width: 1400px;
+	}
+
+	.d-lg-block
+	{
+		display: block;
+	}
+}
