@@ -541,12 +541,16 @@ footer a {
         width: 65%;
     }
 
+
+
     #get_started>.container,
     footer>.container {
         max-width: 900px;
         width: 80%;
         margin: auto;
+        padding: 0 5rem;
     }
+
 
 }
 
@@ -575,15 +579,28 @@ footer a {
 		width: calc(100% / 12 * 6);
     }
     .white_card{
-        width: 60%;
+        width: 75%;
         align-self: flex-end;
     }
     .white_card>img{
-        width: 100%;
+        width: 65%;
+    }
+    
+    #strategic h3 {
+        padding: 0;
+    }
+
+    .freccia {
+        margin-top: 1rem;
+        padding: 1.5rem 1rem;
     }
 
     .col-l-4 {
         width: calc(100% / 12 * 4);
+    }
+
+    .blue_card {
+        padding-bottom: 2rem;
     }
 }
 
