@@ -228,6 +228,45 @@ nav a {
      color: black;
  }
 
+ .blue_card>img,
+ .white_card>img {
+    width: 100%;
+}
+
+/*#endregion strategic*/
+
+
+/*#region testimonials*/
+
+.purple_box {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.purple_box>.NAT_img,
+.purple_box>.CELIA_img,
+.purple_box>.BOB_img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.purple_box>.NAT_img {
+    background-image: url(../assets/img/testimonial1.jpg);
+}
+
+.purple_box>.CELIA_img {
+    background-image: url(../assets/img/testimonial2.jpg);
+}
+
+.purple_box>.BOB_img {
+    background-image: url(../assets/img/testimonial3.jpg);
+}
+
 
 @media screen and (min-width: 768px)
 {
