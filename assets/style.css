@@ -267,6 +267,65 @@ nav a {
     background-image: url(../assets/img/testimonial3.jpg);
 }
 
+/*#endregion testimonials*/
+
+
+/*#region benefits*/
+
+#benefits {
+    margin-top: 8rem;
+    background-color: #9792E4;
+}
+
+#benefits .card {
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+
+#benefits h2 {
+    padding-top: 3rem;
+    color: white;
+    font-size: 2rem;
+
+}
+
+.number_card {
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    color: #9792E4;
+    
+}
+
+#benefits h4 {
+    font-size: 1.5rem;
+    color: #9792E4;
+    padding: 1.5rem;
+    padding-top: 0;
+}
+    
+#benefits .card p {
+    padding: 0 1.5rem;
+    line-height: 1.5rem;
+    color: #3f3e3e94;
+}
+
+#benefits .btn_benefits {
+    padding: 1.5rem;
+    
+}
+
+#benefits a {
+    background-color: #9792E4;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 3rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+    
+
+
 
 @media screen and (min-width: 768px)
 {
