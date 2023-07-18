@@ -88,6 +88,10 @@ body {
 }
 
 
+.p-relative {
+    position: relative;
+}
+
 /* Mobile First */
 header
 {
@@ -281,6 +285,7 @@ nav a {
     background-color: white;
     margin-top: 2rem;
     border-radius: 15px;
+    margin-bottom: 2rem;
 }
 
 #benefits h2 {
@@ -324,8 +329,54 @@ nav a {
     font-weight: bold;
 }
     
+/*#endregion benefits*/
+
+/*region about us*/
+
+#about_us h2 {
+    font-size: 2.5rem;
+    color: #9792E4;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
 
 
+#about_us p {
+    line-height: 2rem;
+    
+}
+
+#about_us h3 {
+    font-size: 1.7rem;
+    color: #9792e4;
+    padding: 1.5rem 0;
+}
+
+#about_us>.container>.row>.col-12>.about-us_img {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/img/about.jpg);
+   
+}
+
+#about_us>.container>.row>.col-12>.fa-solid.fa-quote-left {
+    position: absolute;
+    left: 7rem;
+    top: 1.5rem;
+    scale: 1.5;
+    color: #9792E4;
+}
+
+#about_us a {
+    background-color: #9792E4;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+}
 
 @media screen and (min-width: 768px)
 {
@@ -364,6 +415,16 @@ nav a {
         margin-bottom: -.3rem;
     }
 
+    .purple_box {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .testimonial_text {
+        width: 65%;
+    }
+
 }
 
 @media screen and (min-width: 1024px)
@@ -396,6 +457,10 @@ nav a {
     }
     .white_card>img{
         width: 100%;
+    }
+
+    .col-l-4 {
+        width: calc(100% / 12 * 4);
     }
 }
 
