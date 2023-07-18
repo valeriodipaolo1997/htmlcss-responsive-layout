@@ -331,7 +331,8 @@ nav a {
     
 /*#endregion benefits*/
 
-/*region about us*/
+/*#region about-us*/
+
 
 #about_us h2 {
     font-size: 2.5rem;
@@ -376,6 +377,60 @@ nav a {
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 15px;
+}
+
+/*#endregion about-us*/
+
+/*#region get started*/
+
+#get_started {
+    margin-top: 5rem;
+    background-color: #9792E4;
+}
+
+#get_started h4 {
+     padding-top: 3rem;
+     color: #dadada;
+     font-weight: lighter;
+}
+
+#get_started h2 {
+    color: white;
+    padding: 1rem 0.5rem;
+}
+
+.free {
+    color: orange;
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+#get_started p {
+    color: white;
+}
+
+.get {
+    padding: 2.5rem 0;
+}
+
+#get_started .btn_get {
+    background-color: white;
+    text-decoration: none;
+    color: #9792E4 ;
+    padding: 1rem 4.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+
+.policy {
+    font-size: 0.8rem;
+    padding-bottom: 3rem;
+}
+
+#get_started a{
+    color: white;
 }
 
 @media screen and (min-width: 768px)
