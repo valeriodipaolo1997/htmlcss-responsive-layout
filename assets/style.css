@@ -216,8 +216,9 @@ nav a {
 
 .white_card {
     background-color: white;
-    
+    border-radius: 30px;
     padding: 2rem;
+    margin: 2rem 0;
 }
 
 .blue_card {
@@ -235,6 +236,20 @@ nav a {
  .blue_card>img,
  .white_card>img {
     width: 100%;
+}
+
+#strategic h2 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+#strategic p {
+    line-height: 1.6rem;
+}
+
+#strategic h3 {
+    padding: 1.2rem 0;
 }
 
 /*#endregion strategic*/
@@ -452,6 +467,8 @@ footer a {
     color: #9792E4;
     
 }
+
+/*#endregion footer*/
 
 @media screen and (min-width: 768px)
 {
